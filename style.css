@@ -6,3 +6,75 @@
     font-family: Pl;
     src: url(assets/Poppins-Light.ttf);
 }
+
+body {
+    display: flex;
+    justify-content: center;
+    color: black;
+    width: auto;
+    background-color: gray;
+}
+.mainBlock {
+    width: 1500px;
+    border: none;
+    width: auto;
+    background-color: white;
+}
+
+
+/* Navigation Bar */
+.navBar {
+    /* border: red solid 5px; */
+}
+nav {
+    /* border: orange solid 5px; */
+    padding-top: 15px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.edenLogo img{
+    /* border: green solid 5px; */
+    margin: 0px 30px;
+    height: 70%;
+}
+.anchorPoints {
+    /* border: cyan solid 5px; */
+    display: flex;
+    flex-direction: row;
+    align-items: end;
+}
+.anchorPoint {
+    /* border: blue solid 5px; */
+    list-style-type: none;
+    margin: 15px 15px;
+}
+#maPresentation {
+    color: rgb(107 191 189);
+}
+.anchorPoint a {
+    text-decoration: none;
+    font-family: Pr;
+    color: black;
+}
+
+
+/* Banner */
+.banner {
+    position: relative;
+    display: flex;
+    justify-content: center;
+}
+.banner p {
+    position: absolute;
+    top: 30%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-family: Pr;
+    color: white;
+    font-size: 70px;
+}
+.banner img {
+    width: 100%;
+    
+}
