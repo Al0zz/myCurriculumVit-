@@ -162,3 +162,26 @@ nav {
     font-size: 30px;
     color: rgb(107 191 189);
 }
+
+
+/* My Projects */
+.myProjectsTitle{
+    display: flex;
+    justify-content: center;
+}
+.myProjectsTitle p{
+    margin: 0px 0px;
+    font-family: Pr;
+    font-size: 30px;
+    width: 550px;
+}
+.myProjectsBlocks {
+    display: flex;
+    justify-content: center;
+}
+.projectBlock {
+    margin: 15px;
+    height: 125px;
+    width: 250px;
+    border: black solid 5px;
+}
