@@ -209,3 +209,55 @@ nav {
     width: 58%;
     background-color: black;
 }
+
+
+/* Parcours */
+#myParcoursTitle {
+    width: 60%;
+    font-family: Pr;
+    font-size: 48px;
+}
+.myParcours p {
+    margin: 0;
+}
+.parcoursBlockParent {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+}
+.parcoursBlock {
+    height: 300px;
+    width: 100%;
+    margin: 50px 0;
+    width: 60%;
+    display: flex;
+    justify-content: start;
+    flex-direction: row;
+}
+.parcoursDates {
+    width: 15%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+.parcoursDates p {
+    padding-bottom: 20px ;
+    font-family: Pr;
+    font-size: 36px;
+    color: rgb(107 191 189);
+}
+.parcoursTextBlock {
+    width: 70%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+.parcoursName {
+    font-family: Pr;
+    font-size: 28px;
+}
+.parcoursDescription {
+    font-family: Pl;
+    font-size: 18px;
+}
