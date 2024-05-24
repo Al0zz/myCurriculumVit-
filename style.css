@@ -261,3 +261,39 @@ nav {
     font-family: Pl;
     font-size: 18px;
 }
+
+
+/* Hobbys */
+.myHobbys {
+    background-color: rgb(247 247 247);
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    height: 500px;
+}
+.myHobbysTitle p {
+    font-family: Pr;
+    font-size: 48px;
+}
+.myHobbysText {
+    margin: 0 0 50px 0;
+    display: flex;
+    justify-content: center;
+}
+.myHobbysText p {
+    width: 50%;
+    text-align: center;
+    font-family: Pl;
+    font-size: 24;
+}
+.myHobbysBlocks {
+    width: 60%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.myHobbysBlock {
+    width: 23%;
+    height: 110px;
+    background-color: black;
+}
