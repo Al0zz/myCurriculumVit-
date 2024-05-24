@@ -284,7 +284,7 @@ nav {
     width: 50%;
     text-align: center;
     font-family: Pl;
-    font-size: 24;
+    font-size: 16px;
 }
 .myHobbysBlocks {
     width: 60%;
@@ -296,4 +296,62 @@ nav {
     width: 23%;
     height: 110px;
     background-color: black;
+}
+
+
+/* Why EDEN School */
+.whyEden {
+    background-color: rgb(247 247 247);
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    height: 500px;
+}
+.whyEdenTitle p {
+    font-family: Pr;
+    font-size: 48px;
+}
+.whyEdenText {
+    margin: 0 0 50px 0;
+    display: flex;
+    justify-content: center;
+    width: 60%;
+}
+.whyEdenText p {
+    text-align: center;
+    font-family: Pl;
+    font-size: 16px;
+}
+
+
+/* Footer */
+footer {
+    width: 100%;
+    height: 100px;
+    background-color: rgb(48 48 51);
+    display: flex;
+    justify-content: center;
+}
+.footerBlock {
+    display: flex;
+    flex-direction: row;
+    width: 60%;
+}
+.footerLogo {
+    width: 20%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+}
+.footerLogo img {
+    height: 40%;
+}
+.footerText {
+    display: flex;
+    align-items: center;
+}
+.footerText p {
+    color: white;
+    font-family: Pl;
+    font-size: 14px;
 }
