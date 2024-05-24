@@ -147,6 +147,7 @@ nav {
     align-items: center;
 }
 .citation p {
+    width: 80%;
     font-family: Pr;
     font-size: 25px;
     color: white;
@@ -165,11 +166,13 @@ nav {
     align-items: center;
 }
 .qualityText {
+    width: 20%;
     font-family: Pr;
-    font-size: 25px;
+    font-size: 24px;
     margin: 0px 20px;
 }
 .qualityNum {
+    width: 12%;
     font-family: Pr;
     font-size: 30px;
     color: rgb(107 191 189);
@@ -305,7 +308,7 @@ nav {
     display: flex;
     align-items: center;
     flex-direction: column;
-    height: 500px;
+    height: 350px;
 }
 .whyEdenTitle p {
     font-family: Pr;
