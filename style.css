@@ -183,6 +183,13 @@ nav {
 .myProjects {
     height: 600px;
 }
+.myProjects:hover .projectBlock {
+    filter: blur(8px);
+}
+.myProjects .projectBlock:hover {
+    filter: blur(0);
+    cursor: pointer;
+}
 #projectBlockLeft {
     display: flex;
     flex-direction: column;
@@ -211,22 +218,15 @@ nav {
     height: 225px;
     width: 58%;
     background-color: black;
-    filter: blur(0);
+    transition: filter 0.2s;
 }
 #projectMyPenguins {
     background-color: rgb(50, 194, 230);
     display: flex;
     align-items: center;
-    transition: transform 0.6;
 }
 #projectMyPenguins img {
     width: 100%;
-    filter: blur(5px);
-    transition: filter 0.2s;
-    
-}
-#projectMyPenguins img:hover {
-    filter: blur(0);
 }
 
 
