@@ -219,13 +219,20 @@ nav {
     width: 58%;
     background-color: black;
     transition: filter 0.2s;
+    border-radius: 3px;
 }
 #projectMyPenguins {
-    background-color: rgb(50, 194, 230);
+    background-image:repeating-linear-gradient(rgb(70, 203, 226), rgb(2, 133, 221));
     display: flex;
     align-items: center;
 }
 #projectMyPenguins img {
+    width: 100%;
+}
+#projectLoL {
+    background-image: repeating-linear-gradient(#445fa5, #256579);
+}
+#projectLoL img{
     width: 100%;
 }
 
