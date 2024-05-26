@@ -235,7 +235,15 @@ nav {
 #projectLoL img{
     width: 100%;
 }
-
+#projectText {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    font-family: Pl;
+    font-size: 15px;
+    color: white;
+}
 
 /* Parcours */
 #myParcoursTitle {
@@ -322,6 +330,38 @@ nav {
     width: 23%;
     height: 110px;
     background-color: black;
+}
+#myHobbySnowBoard {
+    background-color: rgb(57, 166, 228);
+}
+#myHobbySnowBoard img {
+    width: 100%;
+}
+#myHobbyMinecraft {
+    background-color: #698b4e;
+}
+#myHobbyMinecraft img {
+    width: 100%;
+}
+#myHobbyMusic {
+    background-color: white;
+    display: flex;
+    justify-content: center;
+}
+#myHobbyMusic img {
+    height: 100%;
+}
+#myHobbyPenguin {
+    background-color: red;
+    display: flex;
+    align-items: center;
+}
+#myHobbyPenguin img {
+    height: 150%;
+    position: relative;
+    top: 5%;
+    left:9%;
+    
 }
 
 
